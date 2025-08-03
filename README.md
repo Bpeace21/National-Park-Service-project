@@ -112,8 +112,17 @@ This visualization clearly and intuitively confirms that the Random Forest Regre
 
 <img width="932" height="522" alt="Image" src="https://github.com/user-attachments/assets/4ed487d3-affc-4533-a6c5-31635760885c" />
 
+
 7. Best Model Selection
 Based on the evaluation metrics, the Random Forest Regressor was selected as the best-performing model. It achieved the highest R2 score of approximately 0.98, indicating it explained over 98% of the variance in recreation visits, and had the lowest MAE and MSE.
+
+<img width="814" height="482" alt="Image" src="https://github.com/user-attachments/assets/e7cc942d-105e-4394-93b8-9d728476d7de" />
+
+8. Testing the Model on New Subjects
+To ensure the model is working correctly, the best-performing model (Random Forest Regressor) was then used to make a prediction for a new, hypothetical data point to simulate a real-world forecasting scenario. A hypothetical visit to Yellowstone National Park in July 2025 was put in place as the test subject in the prediction of the recreation visit count as shown below.
+
+
+
 
 
 
