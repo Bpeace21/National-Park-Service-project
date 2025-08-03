@@ -69,16 +69,14 @@ By park_type: National Parks receive a higher number of visitors compared to oth
 By region and state: Certain regions and states (e.g., Intermountain region, Utah state) have much higher visitation numbers, indicating geographical popularity.
 Recreation Visits Over Time: The line plot of recreation_visits over months reveals a strong and consistent seasonal trend. Visitation peaks dramatically in the summer months and drops in the winter. The hue='year' parameter allows us to see this trend across different years.
 
-<img width="708" height="470" alt="Image" src="https://github.com/user-attachments/assets/34bc60c2-3bbc-4be2-bb93-0ec64af84d94" />
-
 <img width="635" height="215" alt="Image" src="https://github.com/user-attachments/assets/293727b8-8056-4ada-be47-429ff228751c" />
 
+<img width="708" height="470" alt="Image" src="https://github.com/user-attachments/assets/34bc60c2-3bbc-4be2-bb93-0ec64af84d94" />
 
 <img width="704" height="466" alt="Image" src="https://github.com/user-attachments/assets/7e792304-8343-4935-8a9c-07a72e401b92" />
+<img width="629" height="535" alt="Image" src="https://github.com/user-attachments/assets/38bd731c-9c50-4196-bbdb-afe45c574444" />
 
 <img width="964" height="505" alt="Image" src="https://github.com/user-attachments/assets/46e00e5d-3d8c-47fd-b5f2-6d5591264ed7" />
-
-<img width="629" height="535" alt="Image" src="https://github.com/user-attachments/assets/38bd731c-9c50-4196-bbdb-afe45c574444" />
 
 <img width="958" height="451" alt="Image" src="https://github.com/user-attachments/assets/13370e92-b13d-479c-95e8-d77055e24db7" />
 
