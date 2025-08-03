@@ -46,7 +46,7 @@ Data Cleaning Steps:
 Handling Missing Values: Rows with any missing data were dropped.
 Data Type Conversion: The Recreation Visits column, which was initially stored as an object with commas, was converted to a numeric type. Year and Month columns were converted to integers.
 
-
+<img width="1007" height="348" alt="Image" src="https://github.com/user-attachments/assets/ee181090-6713-47f4-a8a7-3b437f35017e" />
 
 
 
