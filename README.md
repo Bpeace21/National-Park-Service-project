@@ -121,7 +121,7 @@ Based on the evaluation metrics, the Random Forest Regressor was selected as the
 8. Testing the Model on New Subjects
 To ensure the model is working correctly, the best-performing model (Random Forest Regressor) was then used to make a prediction for a new, hypothetical data point to simulate a real-world forecasting scenario. A hypothetical visit to Yellowstone National Park in July 2025 was put in place as the test subject in the prediction of the recreation visit count as shown below.
 
-<img width="1011" height="561" alt="Image" src="https://github.com/user-attachments/assets/14a9997c-9737-4933-9eb9-50931e5b3ee0" />
+<img width="992" height="584" alt="Image" src="https://github.com/user-attachments/assets/fd3ecb13-1b61-4de3-9bc6-4f2aaa22da41" />
 
 9. Further Analysis with Power BI
 Power BI was used to create interactive dashboards to visualize and analyze the data in a more dynamic way. This section includes key visualizations that highlight trends, comparisons, and other insights from the dataset, complementing the predictive model's results.
