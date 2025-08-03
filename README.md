@@ -77,6 +77,15 @@ Recreation Visits Over Time: The line plot of recreation_visits over months reve
 
 <img width="629" height="535" alt="Image" src="https://github.com/user-attachments/assets/38bd731c-9c50-4196-bbdb-afe45c574444" />
 
+<img width="958" height="451" alt="Image" src="https://github.com/user-attachments/assets/13370e92-b13d-479c-95e8-d77055e24db7" />
+
+<img width="955" height="461" alt="Image" src="https://github.com/user-attachments/assets/0b357ff0-46bd-4e0b-bcd5-f1b31373cd2c" />
+
+<img width="956" height="453" alt="Image" src="https://github.com/user-attachments/assets/bbbb27b2-13e4-49a6-a203-0c9f507f806f" />
+
+<img width="951" height="454" alt="Image" src="https://github.com/user-attachments/assets/98ceff1e-c597-498c-8b45-8a8022bdd12b" />
+
+<img width="954" height="436" alt="Image" src="https://github.com/user-attachments/assets/b0d794ce-624e-406b-9d8f-5fe1e1c373b1" />
 
 
 
