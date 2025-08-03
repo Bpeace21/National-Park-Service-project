@@ -52,6 +52,27 @@ Data Type Conversion: The Recreation Visits column, which was initially stored a
 
 
 
+5. Analysis
+Exploratory Data Analysis
+A more in-depth analysis of the data reveals was conducted to uncover relationships within the dataset, and from there several key insights emerged.
+Jupyter Notebook Deductions
+Data Structure: The info() output from the Jupyter Notebook confirms that all null values were successfully dropped and that the recreation_visits and recreation_hours columns were correctly converted to int64 data types, which is essential for model training.
+Summary Statistics: The describe() output provides a statistical overview of the data. The mean, standard deviation, and quartiles of recreation_visits give a clear picture of the distribution of visitor numbers. The large standard deviation indicates a wide range of visitor numbers, likely influenced by the popularity of different parks.
+
+Jupyter Notebook Visualizations
+Distribution of Recreation Visits and Hours: The histograms for recreation_visits and recreation_hours show a highly right-skewed distribution. This means that a small number of parks receive an extremely high number of visits and recreation hours, while the vast majority of parks have relatively low visitation numbers. This indicates a few popular "outlier" parks.
+Boxplots for Outliers: The boxplots for numeric variables highlight a significant number of outliers, particularly in the recreation_visits and recreation_hours columns. The extended whiskers and individual data points beyond the boxes confirm the presence of a few highly popular parks that skew the distribution.
+Correlation Heatmap: The heatmap reveals a very strong positive correlation between recreation_visits and recreation_hours. The correlation coefficient is likely close to 1.0, which makes sense as more visitors will naturally lead to more recreation hours. This relationship can be leveraged by the model.
+Recreation Visits by Categorical Variables: The boxplots for park, park_type, region, and state show a clear variation in visitation based on these categories.
+By park: The boxplots show that some individual parks have significantly higher median and outlier visitation numbers than others.
+By park_type: National Parks receive a higher number of visitors compared to other types like National Historical Parks or National Preserves.
+By region and state: Certain regions and states (e.g., Intermountain region, Utah state) have much higher visitation numbers, indicating geographical popularity.
+Recreation Visits Over Time: The line plot of recreation_visits over months reveals a strong and consistent seasonal trend. Visitation peaks dramatically in the summer months and drops in the winter. The hue='year' parameter allows us to see this trend across different years.
+
+
+
+
+
 
 
 
