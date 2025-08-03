@@ -16,9 +16,11 @@ The scope of this project is to predict the number of recreation visits to the U
 Timeframe: Monthly data for the year 2024.
 Metrics: Recreation Visits and Recreation Hours.
 Dimensions:
+
 Individual parks (Park, Unit Code).
 Park classifications (Park Type).
 Geographic locations (Region, State).
+Seasonal Trends
 
 2. Methodology
 The project followed a structured, three-phase methodology to forecast national park visitation accurately.
