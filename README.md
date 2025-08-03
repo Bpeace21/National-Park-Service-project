@@ -89,6 +89,11 @@ Recreation Visits Over Time: The line plot of recreation_visits over months reve
 <img width="954" height="436" alt="Image" src="https://github.com/user-attachments/assets/b0d794ce-624e-406b-9d8f-5fe1e1c373b1" />
 
 
+6. Model Training and Evaluation
+Three regression models were trained to predict the Recreation Visits:
+Linear Regression: A baseline model for a linear relationship between features and the target.
+Random Forest Regressor: An ensemble model that builds multiple decision trees to improve prediction accuracy.
+Gradient Boosting Regressor: Another powerful ensemble model that builds trees sequentially, with each new tree correcting the errors of the previous ones.
 
 
 
