@@ -121,6 +121,65 @@ Based on the evaluation metrics, the Random Forest Regressor was selected as the
 8. Testing the Model on New Subjects
 To ensure the model is working correctly, the best-performing model (Random Forest Regressor) was then used to make a prediction for a new, hypothetical data point to simulate a real-world forecasting scenario. A hypothetical visit to Yellowstone National Park in July 2025 was put in place as the test subject in the prediction of the recreation visit count as shown below.
 
+<img width="1011" height="561" alt="Image" src="https://github.com/user-attachments/assets/14a9997c-9737-4933-9eb9-50931e5b3ee0" />
+
+9. Further Analysis with Power BI
+Power BI was used to create interactive dashboards to visualize and analyze the data in a more dynamic way. This section includes key visualizations that highlight trends, comparisons, and other insights from the dataset, complementing the predictive model's results.
+Seasonal Trends: The visualizations clearly show that visitation follows a strong seasonal pattern. Visitation consistently peaks during the summer months (June, July, August) and reaches its lowest points in the winter (December, January). This seasonality is a powerful predictor for the model.
+
+<img width="865" height="540" alt="Image" src="https://github.com/user-attachments/assets/9a28234b-dc26-4dde-8c60-4647a5d9851c" />
+
+Furthermore the 'Sum of recreation_visits by MonthName' visualisation with the National Historical Parks filter to only show National Historical Parks, further reinforces the importance of seasonality and specific holidays.The month of July has the largest percentage of visits, accounting for 4M (12.56%) of the total. This is a crucial insight that can be directly attributed to the 4th of July holiday. Many Americans visit historical sites during this period to celebrate national history, making it the peak month for this specific park type.
+
+<img width="868" height="487" alt="Image" src="https://github.com/user-attachments/assets/3bde45b6-b03c-4e3c-9032-a86c61542b4e" />
+
+Geographical Popularity: By analyzing visits by State, it is evident that states with multiple iconic parks, such as Utah (Zion NP), California, and North Carolina, receive a disproportionately high number of visitors. This highlights the importance of location as a predictor.
+
+<img width="752" height="482" alt="Image" src="https://github.com/user-attachments/assets/a11526b6-66ae-48f1-a96c-48d94350b564" />
+
+
+Site Popularity (Park Type): The visualizations reveal a significant difference in visitor numbers across different park types. National Parks are by far the most popular. This indicates that the type of park is a critical factor in forecasting visitation.
+
+<img width="835" height="467" alt="Image" src="https://github.com/user-attachments/assets/3b3b8782-17e3-4ab6-9196-d815d7b1ca82" />
+
+
+Correlation between Visits and Hours: There is a strong positive correlation between recreation_visits and recreation_hours. This indicates that when more people visit a park, they also tend to stay for longer periods.Shows if a park is visited frequently, and whether people stay longer or shorter.
+
+<img width="815" height="415" alt="Image" src="https://github.com/user-attachments/assets/e97285c1-00b2-4f09-af78-7f81253130a7" />
+
+Dax Formulas
+The dax formula was put in place to add a month name column for enhanced simplicity in data analysis.Then it was applied to add a season column for the analysis of season trends.
+
+<img width="493" height="306" alt="Image" src="https://github.com/user-attachments/assets/a0011f85-bccb-4284-b6fa-9eb2dc548615" />
+
+<img width="600" height="146" alt="Image" src="https://github.com/user-attachments/assets/3b074797-5335-498d-8e10-f2f161d08175" />
+
+
+10. Conclusion
+The analysis successfully demonstrates that a machine learning model, specifically a Random Forest Regressor, can accurately predict recreation visits to U.S. National Parks based on the provided dataset. The model's high performance metrics and successful prediction on a new test subject confirm its reliability. This model can be a valuable tool for forecasting park attendance, which can assist in resource management and planning.
+
+11. Recommendations : Data-Driven Business Suggestions
+
+a.Dynamic Staffing: Use the predictive model's forecasts to adjust staffing levels in real-time. During peak summer months (June, July, August), schedule additional staff for visitor centers, maintenance, and ranger patrols. Conversely, reduce staffing in off-peak months to optimize labor costs.
+
+b.Inventory Management: Anticipate the demand for park passes, maps, and gift shop items by using historical data and forecasts. Ensure inventories are fully stocked before the summer surge and adjusted appropriately for the low-demand seasons.
+
+c.Promote Off-Season Travel: Launch targeted marketing campaigns highlighting the unique benefits of visiting in the spring or fall. Emphasize activities like fall foliage hikes, winter wildlife viewing, or springtime wildflowers to attract visitors during traditionally slower months.
+
+12. Future work
+a.Integrate External Data Sources
+-Add weather, event, and holiday data to capture real-time factors influencing visitation.
+Example: Rainfall might reduce visits; public holidays may cause spikes.
+b.Park-Specific Predictive Models
+-Build individualized models for high-traffic parks like Yellowstone or Zion.
+-These models could account for park-specific trends and features (e.g., accessibility, capacity).
+c.Real-Time Forecasting System
+-Automate the data pipeline to update predictions regularly (weekly/monthly).
+-Use APIs to fetch live data (e.g., Google Trends, traffic data).
+
+
+
+
 
 
 
