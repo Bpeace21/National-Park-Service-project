@@ -110,6 +110,11 @@ In contrast, Linear Regression has the tallest salmon bar and the shortest skybl
 Gradient Boosting performs well, but its RMSE is higher and its R2 is lower than that of the Random Forest model.
 This visualization clearly and intuitively confirms that the Random Forest Regressor is the best-performing model for this forecasting task.
 
+<img width="932" height="522" alt="Image" src="https://github.com/user-attachments/assets/4ed487d3-affc-4533-a6c5-31635760885c" />
+
+7. Best Model Selection
+Based on the evaluation metrics, the Random Forest Regressor was selected as the best-performing model. It achieved the highest R2 score of approximately 0.98, indicating it explained over 98% of the variance in recreation visits, and had the lowest MAE and MSE.
+
 
 
 
