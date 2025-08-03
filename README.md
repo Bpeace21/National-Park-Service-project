@@ -94,6 +94,22 @@ Three regression models were trained to predict the Recreation Visits:
 Linear Regression: A baseline model for a linear relationship between features and the target.
 Random Forest Regressor: An ensemble model that builds multiple decision trees to improve prediction accuracy.
 Gradient Boosting Regressor: Another powerful ensemble model that builds trees sequentially, with each new tree correcting the errors of the previous ones.
+<img width="825" height="504" alt="Image" src="https://github.com/user-attachments/assets/1c53f41f-b95c-4e06-8646-65711af119d3" />
+
+The data was split into a training set (80%) and a testing set (20%) to evaluate the models on unseen data. The models were evaluated using the following metrics:
+Mean Absolute Error (MAE): Measures the average magnitude of the errors in a set of predictions, without considering their direction.
+Mean Squared Error (MSE): Measures the average of the squares of the errors. It penalizes larger errors more heavily.
+R-squared (): Represents the proportion of the variance for a dependent variable that's explained by an independent variable or variables in a regression model. A score closer to 1.0 indicates a better fit.
+Model Performance Summary:
+The Python code creates a bar chart to visually compare the performance of the three trained models. It uses two separate y-axes to display both RMSE and scores on the same graph, which is an effective way to compare metrics with different scales.
+Code Interpretation: The code sets up two y-axes (ax1 and ax2). The first axis, ax1, plots the RMSE scores (lower is better) using salmon-colored bars. The second axis, ax2, plots the R2 scores (higher is better) using skyblue-colored bars. The x-axis displays the names of the three models.
+Graph Interpretation: Based on the provided data, the graph will show the following:
+The Random Forest model has the shortest salmon bar, representing the lowest RMSE score (24882.04). This indicates its predictions have the smallest average error.
+The Random Forest model also has the tallest skyblue bar, representing the highest R2 score (0.98). This means it explains 98% of the variance in the recreation visits, a very strong result.
+In contrast, Linear Regression has the tallest salmon bar and the shortest skyblue bar, making it the worst-performing model.
+Gradient Boosting performs well, but its RMSE is higher and its R2 is lower than that of the Random Forest model.
+This visualization clearly and intuitively confirms that the Random Forest Regressor is the best-performing model for this forecasting task.
+
 
 
 
