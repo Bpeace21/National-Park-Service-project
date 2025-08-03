@@ -99,8 +99,7 @@ Gradient Boosting Regressor: Another powerful ensemble model that builds trees s
 <img width="825" height="504" alt="Image" src="https://github.com/user-attachments/assets/1c53f41f-b95c-4e06-8646-65711af119d3" />
 
 The data was split into a training set (80%) and a testing set (20%) to evaluate the models on unseen data. The models were evaluated using the following metrics:
-Mean Absolute Error (MAE): Measures the average magnitude of the errors in a set of predictions, without considering their direction.
-Mean Squared Error (MSE): Measures the average of the squares of the errors. It penalizes larger errors more heavily.
+The performance of each model is evaluated using metrics like Root Mean Squared Error (RMSE) and R-squared (R2). RMSE measures the average difference between the predicted and actual values, while R2 indicates how well the model explains the variability of the target.
 R-squared (): Represents the proportion of the variance for a dependent variable that's explained by an independent variable or variables in a regression model. A score closer to 1.0 indicates a better fit.
 Model Performance Summary:
 The Python code creates a bar chart to visually compare the performance of the three trained models. It uses two separate y-axes to display both RMSE and scores on the same graph, which is an effective way to compare metrics with different scales.
